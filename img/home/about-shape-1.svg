@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="328.974" height="329.818" viewBox="0 0 328.974 329.818">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="164.487" cy="164.909" rx="164.487" ry="164.909" transform="translate(0)" fill="#a37878"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+    <g id="Group_9783" data-name="Group 9783" transform="translate(-27.817 -45.638)">
+      <path id="Union_1" data-name="Union 1" d="M0,160.607l271.4,271.4Zm2.576-40.366L312.625,430.29ZM0,201.832,228.457,430.29Zm11.165,46.378L173.49,410.536Zm0-155.024L321.214,403.236Zm10.306,191.1L126.252,389.064Zm0-216.863,310.05,310.049ZM52.39,54.538,362.44,364.587ZM62.7,28.772,372.746,338.821ZM71.285,1.717,381.334,311.766ZM112.51,0l271.4,271.4Zm42.943,1.717L383.91,230.175Zm54.967,19.754L372.746,183.8Zm47.237,21.472L362.44,147.724Z" transform="translate(0 0)" fill="none" stroke="#f69a20" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
