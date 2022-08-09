@@ -148,3 +148,21 @@ ScrollTrigger.create({
     }
   }
 });
+
+/* #Sandiwch Animation
+  ======================================================= */
+const sandwichLi = document.querySelectorAll('.sandwich li');
+
+sandwichLi.forEach(li => {
+  ScrollTrigger.create({
+    trigger: li,
+    onEnter: () => {
+      gsap.from(li, {
+        opacity: 0,
+        yPercent: 200,
+        duration: 1,
+        scrollTrigger: sandwichLi,
+      });
+    }
+  });
+});
