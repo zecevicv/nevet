@@ -39,3 +39,80 @@ if (document.querySelector('.header')) {
     header.classList.remove('header-scrolled');
   }
 }
+
+/* #Partners Slider
+  ======================================================= */
+if (document.querySelector('.partners .swiper')) {
+  var swiper = new Swiper(".partners .swiper", {
+    grid: {
+      rows: 2,
+      fill: 'row'
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 4,
+      }
+    },
+    navigation: {
+      nextEl: ".partners .next",
+      prevEl: ".partners .prev",
+    },
+  });
+}
+
+/* #Reviews Slider
+  ======================================================= */
+if (document.querySelector('.reviews .swiper')) {
+  var swiper = new Swiper(".reviews .swiper", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".reviews .next",
+      prevEl: ".reviews .prev",
+    },
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+  });
+}
+
+/* #Steps Slider
+  ======================================================= */
+if (document.querySelector('.steps .swiper')) {
+  var swiper = new Swiper(".steps .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1.15,
+      },
+      1024: {
+        slidesPerView: 2.34,
+      }
+    },
+    navigation: {
+      nextEl: ".steps .next",
+      prevEl: ".steps .prev",
+    },
+  });
+}
+
+/* #Collaboration Slider
+  ======================================================= */
+if (document.querySelector('.collaboration .swiper')) {
+  var swiper = new Swiper(".collaboration .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1.15,
+      },
+      1024: {
+        slidesPerView: 1.55,
+      }
+    },
+    navigation: {
+      nextEl: ".collaboration .next",
+      prevEl: ".collaboration .prev",
+    },
+  });
+}
