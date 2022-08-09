@@ -733,6 +733,19 @@ body {
   width: 100%;
 }
 
+/* Fixed */
+.numbers ul li {
+  min-width: 12vw;
+}
+
+.numbers ul li:nth-child(4) {
+  min-width: 16vw;
+}
+
+.numbers ul li:last-child {
+  min-width: 19vw;
+}
+
 @media (max-width: 1023.98px) {
   .numbers {
     padding: 35.33vw 0 33.33vw 0;
