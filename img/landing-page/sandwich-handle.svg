@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="54" viewBox="0 0 68 54">
+  <g id="Group_25489" data-name="Group 25489" transform="translate(14850.947 20333.419)">
+    <g id="Group_25478" data-name="Group 25478" transform="translate(-14823.241 -20309.859)">
+      <line id="Line_406" data-name="Line 406" y2="18" transform="translate(6.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <g id="Path_49466" data-name="Path 49466" transform="translate(0 15.441)" fill="#b28f00">
+        <path d="M 6.5 14 C 2.364490032196045 14 -1 10.63551044464111 -1 6.5 C -1 2.364490032196045 2.364490032196045 -1 6.5 -1 C 10.63551044464111 -1 14 2.364490032196045 14 6.5 C 14 10.63551044464111 10.63551044464111 14 6.5 14 Z" stroke="none"/>
+        <path d="M 6.5 0 C 2.910149574279785 0 0 2.910149574279785 0 6.5 C 0 10.0898494720459 2.910149574279785 13 6.5 13 C 10.0898494720459 13 13 10.0898494720459 13 6.5 C 13 2.910149574279785 10.0898494720459 0 6.5 0 M 6.5 -2 C 11.18692016601562 -2 15 1.813079833984375 15 6.5 C 15 11.18692016601562 11.18692016601562 15 6.5 15 C 1.813079833984375 15 -2 11.18692016601562 -2 6.5 C -2 1.813079833984375 1.813079833984375 -2 6.5 -2 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_9897" data-name="Rectangle 9897" width="68" height="25" rx="12.5" transform="translate(-14850.947 -20333.418)" fill="#f6cd23"/>
+  </g>
+</svg>
