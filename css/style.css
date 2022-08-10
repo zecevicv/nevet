@@ -38,6 +38,10 @@ body {
   color: #182E54;
 }
 
+.text-light-blue {
+  color: #38C2D9;
+}
+
 .text-underline {
   text-decoration: underline;
 }
