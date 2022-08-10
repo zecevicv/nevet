@@ -4,19 +4,22 @@ const header = document.querySelector('.header');
 const headerBtn = document.querySelector('.header-hamburger a');
 const menuClose = document.querySelector('.menu-close');
 
-headerBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+if (header) {
+  headerBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+  
+    header.classList.toggle('show');
+    body.classList.toggle('no-scroll');
+  });
+  
+  menuClose.addEventListener('click', (e) => {
+    e.preventDefault();
+  
+    header.classList.remove('show');
+    body.classList.remove('no-scroll');
+  });
+}
 
-  header.classList.toggle('show');
-  body.classList.toggle('no-scroll');
-});
-
-menuClose.addEventListener('click', (e) => {
-  e.preventDefault();
-
-  header.classList.remove('show');
-  body.classList.remove('no-scroll');
-});
 
 /* #Header
   ======================================================= */
@@ -124,45 +127,49 @@ gsap.registerPlugin(ScrollTrigger);
 const numbers = document.querySelectorAll('.numbers .num');
 let numbersStatus = false;
 
-ScrollTrigger.create({
-  trigger: ".numbers",
-  onEnter: () => {
-    if (!numbersStatus) {
-      numbers.forEach((number) => {
-        var zero = {
-          val: 0
-        };
-        var num = number.innerHTML;
-
-        gsap.to(zero, {
-          val: num,
-          duration: 3,
-          scrollTrigger: numbers,
-          onUpdate: function () {
-            number.innerHTML = zero.val.toFixed(0);
-          }
+if (numbers) {
+  ScrollTrigger.create({
+    trigger: ".numbers",
+    onEnter: () => {
+      if (!numbersStatus) {
+        numbers.forEach((number) => {
+          var zero = {
+            val: 0
+          };
+          var num = number.innerHTML;
+  
+          gsap.to(zero, {
+            val: num,
+            duration: 3,
+            scrollTrigger: numbers,
+            onUpdate: function () {
+              number.innerHTML = zero.val.toFixed(0);
+            }
+          });
         });
-      });
-
-      numbersStatus = true;
+  
+        numbersStatus = true;
+      }
     }
-  }
-});
+  });
+}
 
 /* #Sandiwch Animation
   ======================================================= */
 const sandwichLi = document.querySelectorAll('.sandwich li');
 
-sandwichLi.forEach(li => {
-  ScrollTrigger.create({
-    trigger: li,
-    onEnter: () => {
-      gsap.from(li, {
-        opacity: 0,
-        yPercent: 200,
-        duration: 1,
-        scrollTrigger: sandwichLi,
-      });
-    }
+if (sandwichLi) {
+  sandwichLi.forEach(li => {
+    ScrollTrigger.create({
+      trigger: li,
+      onEnter: () => {
+        gsap.from(li, {
+          opacity: 0,
+          yPercent: 200,
+          duration: 1,
+          scrollTrigger: sandwichLi,
+        });
+      }
+    });
   });
-});
+}
