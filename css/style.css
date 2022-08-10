@@ -129,6 +129,12 @@ body {
   background-image: url('../img/global/btn-tertiary.svg');
 }
 
+.btn.btn-quintary {
+  color: #182E54;
+  border: 1px solid #182E54;
+  border-radius: 500px;
+}
+
 @media (max-width: 1023.98px) {
   .btn {
     width: 37.33vw;
@@ -1829,13 +1835,13 @@ body {
   padding-left: .78vw;
 }
 
-.collaboration .swiper-slide > div {
+.post-card {
   position: relative;
   border-radius: .5vw;
   overflow: hidden;
 }
 
-.collaboration .swiper-slide .text {
+.post-card .text {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1844,18 +1850,18 @@ body {
   z-index: 2;
 }
 
-.collaboration .swiper-slide .text > div {
+.post-card .text > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: .7vw;
 }
 
-.collaboration .swiper-slide .img {
+.post-card .img {
   position: relative;
 }
 
-.collaboration .swiper-slide .img::after {
+.post-card .img::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1865,7 +1871,7 @@ body {
   background-image: linear-gradient(to top, white, transparent);
 }
 
-.collaboration .swiper-slide .img img {
+.post-card .img img {
   width: 100%;
   height: 23.8vw;
   object-fit: cover;
@@ -1929,26 +1935,26 @@ body {
     padding-left: 3.33vw;
   }
   
-  .collaboration .swiper-slide > div {
+  .post-card {
     border-radius: 1.33vw;
   }
   
-  .collaboration .swiper-slide .text {
+  .post-card .text {
     padding: 2vw 3.33vw;
   }
   
-  .collaboration .swiper-slide .text > div {
+  .post-card .text > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: .7vw;
   }
   
-  .collaboration .swiper-slide .img {
+  .post-card .img {
     position: relative;
   }
   
-  .collaboration .swiper-slide .img img {
+  .post-card .img img {
     height: 90vw;
   }
 }
@@ -2510,5 +2516,122 @@ body {
     top: 20vw;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+/* #Magazine
+================================================== */
+.magazine {
+  position: relative;
+  padding: 2vw 0 7.3vw 0;
+}
+
+.magazine .container {
+  width: 79%;
+}
+
+.magazine h2 {
+  position: relative;
+}
+
+.magazine h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 6vw;
+  height: 1px;
+  border-bottom: 4px dashed #F69A20;
+}
+
+/* Heading */
+.magazine .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+
+/* Body */
+.magazine .body ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2vw -2.6vw;
+}
+
+.magazine .body ul li {
+  flex: 0 0 33.33333%;
+  padding: 2vw 2.6vw;
+}
+
+.magazine .body ul li:nth-child(1) .post-card,
+.magazine .body ul li:nth-child(4) .post-card,
+.magazine .body ul li:nth-child(7) .post-card,
+.magazine .body ul li:nth-child(10) .post-card,
+.magazine .body ul li:nth-child(13) .post-card,
+.magazine .body ul li:nth-child(16) .post-card {
+  border: 5px solid #FFCE00;
+}
+
+.magazine .body ul li:nth-child(2) .post-card,
+.magazine .body ul li:nth-child(5) .post-card,
+.magazine .body ul li:nth-child(8) .post-card,
+.magazine .body ul li:nth-child(11) .post-card,
+.magazine .body ul li:nth-child(14) .post-card,
+.magazine .body ul li:nth-child(17) .post-card {
+  border: 5px solid #5FBB46;
+}
+
+.magazine .body ul li:nth-child(3) .post-card,
+.magazine .body ul li:nth-child(6) .post-card,
+.magazine .body ul li:nth-child(9) .post-card,
+.magazine .body ul li:nth-child(12) .post-card,
+.magazine .body ul li:nth-child(15) .post-card,
+.magazine .body ul li:nth-child(18) .post-card {
+  border: 5px solid #38C2D9;
+}
+
+@media (max-width: 1023.98px) {
+  .magazine {
+    padding: 0 0 13.33vw 0;
+  }
+  
+  .magazine .container {
+    width: 90%;
+  }
+  
+  .magazine h2::after {
+    width: 16vw;
+  }
+  
+  /* Heading */
+  .magazine .heading {
+    margin-bottom: 9.33vw;
+  }
+  
+  /* Body */
+  .magazine .body ul {
+    display: block;
+    margin: 0;
+    margin-bottom: 5.33vw;
+  }
+  
+  .magazine .body ul li {
+    padding: 0;
+  }
+
+  .magazine .body ul li:not(:last-child) {
+    margin-bottom: 8vw;
+  } 
+
+  .magazine .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .magazine .action .btn {
+    margin-top: 6vw;
   }
 }
