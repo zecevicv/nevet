@@ -2892,3 +2892,35 @@ body {
     margin-top: 6.65vw;
   }
 }
+
+/* #Terms
+================================================== */
+.terms {
+  padding: 9.375vw 0 4.16vw 0;
+}
+
+.terms .container {
+  width: 67%;
+}
+
+.terms h1 {
+  text-align: center;
+  margin-bottom: 2.34vw;
+}
+
+@media (max-width: 1023.98px) {
+  .terms {
+    padding: 26.66vw 0 16vw 0;
+  }
+  
+  .terms .container {
+    width: 90%;
+  }
+  
+  .terms h1 {
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 6vw;
+    line-height: 1.1;
+  }
+}
