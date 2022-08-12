@@ -745,15 +745,15 @@ body {
 
 /* Fixed */
 .numbers ul li {
-  min-width: 12vw;
+  min-width: 12.5vw;
 }
 
 .numbers ul li:nth-child(4) {
-  min-width: 16vw;
+  min-width: 16.5vw;
 }
 
 .numbers ul li:last-child {
-  min-width: 19vw;
+  min-width: 19.5vw;
 }
 
 @media (max-width: 1023.98px) {
