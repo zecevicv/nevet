@@ -139,6 +139,11 @@ body {
   border-radius: 500px;
 }
 
+.btn.btn-quinary {
+  color: white;
+  background-image: url('../img/global/btn-quinary.svg');
+}
+
 @media (max-width: 1023.98px) {
   .btn {
     width: 37.33vw;
@@ -3386,5 +3391,377 @@ body {
   
   .thanks .heading {
     margin-bottom: 8vw;
+  }
+}
+
+/* #Volunteering
+================================================== */
+.volunteering {
+  background-color: #80DE66;
+  position: relative;
+  padding: 0 0 15vw 0;
+}
+
+.volunteering .container {
+  width: 79%;
+}
+
+.volunteering .heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5.2vw;
+  width: 52vw;
+}
+
+.volunteering h2 {
+  margin-bottom: 1.3vw;
+}
+
+.volunteering ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -3.9vw;
+}
+
+.volunteering ul li {
+  flex: 0 0 36.35vw;
+  display: flex;
+  margin-bottom: 3.9vw;
+}
+
+.volunteering ul li > div:first-child {
+  flex: 0 0 8.5vw;
+  margin-left: 1.3vw
+}
+
+.volunteering ul img {
+  width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .volunteering {
+    padding: 0 0 37.33vw 0;
+  }
+  
+  .volunteering .container {
+    width: 90%;
+  }
+  
+  .volunteering .heading {
+    margin-bottom: 5.33vw;
+    width: 100%;
+  }
+  
+  .volunteering h2 {
+    line-height: 1.15;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1.3vw;
+  }
+  
+  .volunteering ul {
+    display: block;
+    margin-bottom: -3.9vw;
+  }
+  
+  .volunteering ul li {
+    display: block;
+    margin-bottom: 3.33vw;
+    text-align: center;
+  }
+  
+  .volunteering ul li > div:first-child {
+    margin-left: 0;
+  }
+  
+  .volunteering ul img {
+    width: 28vw;
+    margin: 0 auto;
+  }
+}
+
+/* #Stories
+================================================== */
+.stories {
+  background-color: #55CEE2;
+  position: relative;
+  padding: 4.16vw 0 6.25vw 0;
+}
+
+.stories .media-box {
+  margin: 0 auto;
+  width: 79%;
+  margin-bottom: 12.5vw;
+}
+
+.stories .media-box .img {
+  flex: 0 0 36vw;
+}
+
+.stories .media-box .video > img {
+  height: 22.76vw;
+}
+
+.stories-body {
+  margin: 0 auto;
+  width: 89%;
+}
+
+/* Img 2 */
+.stories .img-1 {
+  position: absolute;
+  top: 46.35vw;
+  left: 0;
+  z-index: 10;
+}
+
+.stories .img-1 img {
+  width: 13.33vw;
+  transform: scaleX(-1);
+}
+
+/* Slide */
+.stories-body h2 {
+  margin-bottom: 6.77vw;
+}
+
+.stories .swiper-slide > div {
+  background-color: white;
+  border: 2px dashed #182E54;
+  border-radius: 1vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 2.34vw 2vw 1vw 2vw;
+  position: relative;
+}
+
+.stories .swiper-slide .quottes {
+  position: absolute;
+  top: -2.34vw;
+  right: 2vw;
+  width: 4.68vw;
+}
+
+.stories .swiper-slide .quottes img {
+  width: 4.68vw;
+}
+
+.stories .swiper-slide .logo {
+  margin: 2.6vw 0 .5vw 0;
+  height: 2.6vw;
+}
+
+@media (min-width: 1024px) {
+  .stories .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .stories .swiper-slide {
+    flex: 0 0 25%;
+  }
+
+  .stories .swiper {
+    margin: -2.6vw -1.3vw;
+  }
+  
+  .stories .swiper-slide {
+    padding: 2.6vw 1.3vw;
+  }
+  
+  .stories .swiper-slide:nth-child(3) {
+    margin-left: 2vw;
+  }
+
+  .stories .swiper-arrows {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .stories {
+    padding: 2vw 0 30.66vw 0;
+  }
+  
+  .stories .media-box {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 42.66vw;
+  }
+  
+  .stories .media-box .video > img {
+    height: 57.33vw;
+  }
+  
+  .stories-body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Img 2 */
+  .stories .img-1 {
+    display: none;
+  }
+  
+  /* Slide */
+  .stories-body h2 {
+    margin-bottom: 10vw;
+    padding: 0 20%;
+    text-align: center;
+    line-height: 1.15;
+  }
+
+  .stories .swiper-slide {
+    padding: 0 2vw;
+    padding-top: 10vw;
+  }
+  
+  .stories .swiper-slide > div {
+    border-radius: 3.33vw;
+    padding: 8vw 8vw 6.65vw 6vw;
+    position: relative;
+  }
+  
+  .stories .swiper-slide .quottes {
+    position: absolute;
+    top: -10vw;
+    right: 8vw;
+    width: 18.66vw;
+  }
+  
+  .stories .swiper-slide .quottes img {
+    width: 18.66vw;
+  }
+  
+  .stories .swiper-slide .logo {
+    margin: 6vw 0 2vw 0;
+    height: 10.33vw;
+  }
+
+  .stories .swiper-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.65vw;
+  }
+
+  .stories .swiper-arrows img {
+    width: 11.73vw;
+  }
+
+  .stories .swiper-arrows .prev {
+    margin-left: 2.66vw;
+  }
+}
+
+/* #Form Elements
+================================================== */
+.input-primary,
+.select-primary {
+  height: 3.125vw;
+  border-radius: 500px;
+  padding: 0 1vw;
+  width: 23.64vw;
+  background-color: transparent;
+  border: 1px solid #182E54;
+}
+
+.select-primary {
+  appearance: none;
+  background-image: url('../img/icons/chevron-down.svg');
+  background-repeat: no-repeat;
+  background-size: .6vw auto;
+  background-position: 1.5vw 50%;
+}
+
+@media (max-width: 1023.98px) {
+  .input-primary,
+  .select-primary {
+    height: 11.33vw;
+    padding: 0 5.33vw;
+    width: 100%;
+  }
+
+  .select-primary {
+    background-size: 2.66vw auto;
+    background-position: 5.33vw 50%;
+  }
+}
+
+/* #Contact Form
+================================================== */
+.contact-form {
+  padding: 2.6vw 0 3.65vw 0;
+  position: relative;
+}
+
+.contact-form .container {
+  padding: 0 7.8vw;
+}
+
+/* Img */
+.contact-form .img {
+  position: absolute;
+  top: 50%;
+  left: 5vw;
+  transform: translateY(-50%);
+}
+
+.contact-form .img,
+.contact-form .img img {
+  width: 38.54vw;
+}
+
+/* Text */
+.contact-form .heading {
+  margin-bottom: 3.125vw;
+}
+
+.contact-form form {
+  margin-bottom: 1.1vw;
+}
+
+.contact-form form > div:not(:last-child) {
+  margin-bottom: 1.3vw;
+}
+
+@media (max-width: 1023.98px) {
+  .contact-form {
+    padding: 6vw 0 13.33vw 0;
+    position: relative;
+  }
+  
+  .contact-form .container {
+    padding: 0;
+    width: 90%;
+  }
+  
+  /* Img */
+  .contact-form .img {
+    position: static;
+    transform: none;
+  }
+  
+  .contact-form .img,
+  .contact-form .img img {
+    width: 81.33vw;
+    margin: 0 auto;
+  }
+  
+  /* Text */
+  .contact-form .text {
+    margin-top: 4vw;
+  }
+
+  .contact-form .heading {
+    margin-bottom: 6vw;
+  }
+  
+  .contact-form form {
+    margin-bottom: 6vw;
+  }
+  
+  .contact-form form > div:not(:last-child) {
+    margin-bottom: 3.33vw;
   }
 }

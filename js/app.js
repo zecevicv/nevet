@@ -192,3 +192,22 @@ if (document.querySelector('.post-slider .swiper')) {
     },
   });
 }
+
+/* #Post Slider
+  ======================================================= */
+if (document.querySelector('.stories .swiper')) {
+  var swiper = new Swiper(".stories .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1.15,
+      },
+      1024: {
+        slidesPerView: 1
+      }
+    },
+    navigation: {
+      nextEl: ".stories .next",
+      prevEl: ".stories .prev",
+    },
+  });
+}
