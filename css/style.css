@@ -3,30 +3,30 @@
 @font-face {
   font-family: "ploni";
   font-weight: 400;
-  src: url("../font/ploni-regular-aaa.eot");
+  src: url("../font/ploni-regular-aaa.woff");
 }
 @font-face {
   font-family: "ploni";
   font-weight: 500;
-  src: url("../font/ploni-medium-aaa.eot");
+  src: url("../font/ploni-medium-aaa.woff");
 }
 
 @font-face {
   font-family: "ploni";
   font-weight: 600;
-  src: url("../font/ploni-demibold-aaa.eot");
+  src: url("../font/ploni-demibold-aaa.woff");
 }
 
 @font-face {
   font-family: "ploni";
   font-weight: 700;
-  src: url("../font/ploni-bold-aaa.eot");
+  src: url("../font/ploni-bold-aaa.woff");
 }
 
 @font-face {
   font-family: "ploni";
   font-weight: 900;
-  src: url("../font/ploni-ultrabold-aaa.eot");
+  src: url("../font/ploni-ultrabold-aaa.woff");
 }
 
 @font-face {
