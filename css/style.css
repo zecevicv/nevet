@@ -4068,3 +4068,30 @@ body {
     width: 41.33vw;
   }
 }
+
+/* #Partners Page
+================================================== */
+.partners-page .stories .img-1 {
+  top: 10.35vw;
+}
+
+.partners-page .partners .container:not(:last-of-type) {
+  margin-bottom: 8.5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .partners-page .partners {
+    padding: 6.26vw 0 34.66vw 0;
+  }
+  
+  .partners-page .partners .container:not(:last-of-type) {
+    margin-bottom: 22.6vw;
+  }
+}
+
+/* #Concept
+================================================== */
+.concept {
+  position: relative;
+  background-color: white;
+}
