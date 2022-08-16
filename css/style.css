@@ -4589,3 +4589,132 @@ body {
     top: -13vw;
   }
 }
+
+/* #Donate Page
+================================================== */
+@media (min-width: 1024px) {
+  .donate-page .banner {
+    padding-top: 9.11vw;
+  }
+  
+  .donate-page .banner .img {
+    padding-top: 0;
+  }
+  
+  .donate-page .why .img img {
+    width: 100%;
+  }
+  
+  .donate-page .why .shape-1 {
+    position: absolute;
+    bottom: 3vw;
+    left: 0;
+  }
+  
+  .donate-page .why .shape-1 img {
+    width: 29.27vw;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .donate-page .why .shape-1 {
+    display: none;
+  }
+
+  .donate-page .why .container {
+    width: 100%;
+  }
+
+  .donate-page .why .form {
+    padding: 0 5%;
+    margin-bottom: 11.33vw;
+  }
+}
+
+/* #Donate Accordion
+================================================== */
+.donate-accordion {
+  position: relative;
+  background-color: #55CEE2;
+  padding: 0 0 5.2vw 0;
+}
+
+.donate-accordion h2 {
+  text-align: center;
+  margin-bottom: 3.125vw;
+}
+
+.donate-accordion .container {
+  width: 84%;
+}
+
+.donate-accordion .collapse > div {
+  padding-bottom: 2.6vw;
+  padding-right: 6.77vw;
+}
+
+.donate-accordion .collapse ul li:not(:last-child) {
+  margin-bottom: .45vw;
+}
+
+.donate-accordion .collapsible:not(:last-child) {
+  border-bottom: 1px solid #405880;
+}
+
+.donate-accordion .collapse-toggler {
+  display: flex;
+  align-items: center;
+  padding: 1.5vw 0;
+}
+
+.donate-accordion .collapse-toggler .simbol {
+  margin-left: 1vw;
+}
+
+.donate-accordion .collapse-toggler img {
+  width: 1.5vw;
+  transition: all .5s ease;
+}
+
+.donate-accordion .collapsible.show .simbol img {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .donate-accordion {
+    padding: 0 0 13.33vw 0;
+  }
+  
+  .donate-accordion h2 {
+    margin-bottom: 6vw;
+  }
+  
+  .donate-accordion .container {
+    width: 90%;
+  }
+  
+  .donate-accordion .collapse > div {
+    padding-bottom: 4.66vw;
+    padding-right: 10.33vw;
+  }
+
+  .donate-accordion .collapse ul {
+    width: 64vw;
+  }
+  
+  .donate-accordion .collapse ul li:not(:last-child) {
+    margin-bottom: 2vw;
+  }
+  
+  .donate-accordion .collapse-toggler {
+    padding: 4.66vw 0;
+  }
+  
+  .donate-accordion .collapse-toggler .simbol {
+    margin-left: 3.33vw;
+  }
+  
+  .donate-accordion .collapse-toggler img {
+    width: 5vw;
+  }
+}
