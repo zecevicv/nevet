@@ -4451,3 +4451,141 @@ body {
     padding: 0 4vw;
   }
 }
+
+/* #Contact Page
+================================================== */
+.contact-page {
+  padding-top: 6.25vw;
+}
+
+@media (max-width: 1023.98px) {
+  .contact-page {
+    padding-top: 17vw;
+  }  
+}
+
+/* #Contact Info
+================================================== */
+.contact-info {
+  padding: 2.34vw 0 5.2vw 0;
+  position: relative;
+}
+
+.contact-info .container {
+  width: 79%;
+}
+
+.contact-info .img {
+  margin-top: 4.16vw;
+}
+
+.contact-info .img img {
+  width: 100%;
+  height: 33.22vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1.3vw;
+  border: 2px dashed #182E54;
+}
+
+.contact-info h2 {
+  text-align: center;
+  margin-bottom: 2.6vw;
+}
+
+.contact-info ul {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info ul li:not(:last-child) {
+  margin-left: 5.2vw;
+}
+
+.contact-info ul li {
+  display: flex;
+  white-space: nowrap;
+}
+
+.contact-info ul li > div:first-child {
+  flex: 0 0 3.125vw;
+}
+
+.contact-info ul li > div:first-child img {
+  width: 1.8vw;
+  height: 1.6vw;
+  object-fit: contain;
+  object-position: center;
+}
+
+.contact-info ul li > div:last-child {
+  flex-grow: 1;
+}
+
+.contact-info .shape-1 {
+  position: absolute;
+  top: -13vw;
+  left: 0;
+  width: 100%;
+}
+
+.contact-info .shape-1 img {
+  width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .contact-info {
+    padding: 5.33vw 0 0 0;
+    position: relative;
+  }
+  
+  .contact-info .container {
+    width: 100%;
+  }
+  
+  .contact-info .img {
+    margin-top: 10vw;
+  }
+  
+  .contact-info .img img {
+    height: 111vw;
+    border-radius: 0;
+    border: 2px solid #182E54;
+  }
+  
+  .contact-info h2 {
+    text-align: center;
+    margin-bottom: 8vw;
+  }
+  
+  .contact-info ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: -9.33vw;
+  }
+  
+  .contact-info ul li:not(:last-child) {
+    margin-left: 0;
+  }
+  
+  .contact-info ul li {
+    display: flex;
+    white-space: nowrap;
+    flex: 0 0 44vw;
+    margin-bottom: 9.33vw;
+  }
+  
+  .contact-info ul li > div:first-child {
+    flex: 0 0 8vw;
+  }
+  
+  .contact-info ul li > div:first-child img {
+    width: 5.73vw;
+    height: 5.33vw;
+  }
+  
+  .contact-info .shape-1 {
+    top: -13vw;
+  }
+}
