@@ -211,3 +211,15 @@ if (document.querySelector('.stories .swiper')) {
     },
   });
 }
+
+/* #Activity Slider
+  ======================================================= */
+if (document.querySelector('.activity .swiper')) {
+  var swiper = new Swiper(".activity .swiper", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".activity .next",
+      prevEl: ".activity .prev",
+    },
+  });
+}
