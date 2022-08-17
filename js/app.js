@@ -242,3 +242,22 @@ if (document.querySelector('.activity .swiper')) {
     },
   });
 }
+
+/* #Team Slider
+  ======================================================= */
+if (document.querySelector('.team .swiper')) {
+  var swiper = new Swiper(".team .swiper", {
+    breakpoints: {
+      0: {
+        slidesPerView: 1.15,
+      },
+      1024: {
+        slidesPerView: 6,
+      }
+    },
+    navigation: {
+      nextEl: ".team .next",
+      prevEl: ".team .prev",
+    },
+  });
+}
