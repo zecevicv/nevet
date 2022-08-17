@@ -177,23 +177,42 @@ if (sandwichLi) {
 /* #Post Slider
   ======================================================= */
 if (document.querySelector('.post-slider .swiper')) {
-  var swiper = new Swiper(".post-slider .swiper", {
-    breakpoints: {
-      0: {
-        slidesPerView: 1.15,
+  if (document.querySelector('.post-slider').classList.contains('alt')) {
+    var swiper = new Swiper(".post-slider .swiper", {
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
       },
-      1024: {
-        slidesPerView: 3,
-      }
-    },
-    navigation: {
-      nextEl: ".post-slider .next",
-      prevEl: ".post-slider .prev",
-    },
-  });
+      navigation: {
+        nextEl: ".post-slider .next",
+        prevEl: ".post-slider .prev",
+      },
+    });
+  } else {
+    var swiper = new Swiper(".post-slider .swiper", {
+      breakpoints: {
+        0: {
+          slidesPerView: 1.15,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
+      },
+      navigation: {
+        nextEl: ".post-slider .next",
+        prevEl: ".post-slider .prev",
+      },
+    });
+  }
+
+
 }
 
-/* #Post Slider
+/* #Stories Slider
   ======================================================= */
 if (document.querySelector('.stories .swiper')) {
   var swiper = new Swiper(".stories .swiper", {
