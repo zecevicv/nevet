@@ -124,6 +124,12 @@
   }
 }
 
+/* #Section Top
+================================================== */
+body > *:nth-child(3) .section-top img {
+  transform: scaleX(-1);
+}
+
 /* #Partners
 ================================================== */
 @media (max-width: 1023.98px) {
@@ -441,4 +447,36 @@
     padding-right: 0;
     padding-left: .78vw;
   }
+}
+
+
+/* #Donate Accordion
+================================================== */
+.donate-accordion .collapse>div {
+  padding-right: 0;
+  padding-left: 6.77vw;
+}
+
+.donate-accordion .collapse-toggler .simbol {
+  margin-left: 0;
+  margin-right: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .donate-accordion .collapse>div {
+    padding-left: 10.33vw;
+    padding-right: 0;
+  }
+
+  .donate-accordion .collapse-toggler .simbol {
+    margin-left: 0;
+    margin-right: 3.33vw;
+  }
+}
+
+/* #Why
+================================================== */
+.donate-page .why .shape-1 {
+  left: auto;
+  right: 0;
 }
