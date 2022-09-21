@@ -126,8 +126,10 @@
 
 /* #Section Top
 ================================================== */
-body > *:nth-child(3) .section-top img {
-  transform: scaleX(-1);
+@media (min-width: 1024px) {
+  body > *:nth-child(3) .section-top img {
+    transform: scaleX(-1);
+  }
 }
 
 /* #Partners
@@ -479,4 +481,34 @@ body > *:nth-child(3) .section-top img {
 .donate-page .why .shape-1 {
   left: auto;
   right: 0;
+}
+
+/* #Magazine
+================================================== */
+.magazine h2::after {
+  right: auto;
+  left: 0;
+}
+
+/* #Post Slider
+================================================== */
+@media (max-width: 1023.98px) {
+  .post-slider .swiper {
+    padding-right: 0;
+    padding-left: 2.66vw;
+  }
+
+  .post-slider .swiper-arrows img {
+    transform: rotate(180deg);
+  }
+
+  .post-slider .prev {
+    margin-left: 0;
+    margin-right: 2.66vw;
+  }
+
+  .post-slider .swiper-arrows {
+    padding-left: 0;
+    padding-right: 5.33vw;
+  }
 }
