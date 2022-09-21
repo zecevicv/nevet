@@ -512,3 +512,94 @@
     padding-right: 5.33vw;
   }
 }
+
+/* #Media Boxes
+================================================== */
+.media-boxes {
+  direction: rtl;
+  text-align: left;
+}
+
+.media-box .media-box-shape {
+  left: auto;
+  right: -5vw;
+}
+
+.media-box .media-box-shape img {
+  transform: scaleX(-1);
+}
+
+@media (max-width: 1023.98px) {
+  .media-box .media-box-shape img {
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: -6vw;
+  }
+}
+
+/* #Volunteering
+================================================== */
+.volunteering ul li>div:first-child {
+  margin-left: 0;
+  margin-right: 1.3vw;
+}
+
+@media (max-width: 1023.98px) {
+  .volunteering ul li>div:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* #Team
+================================================== */
+.team-member .text p img {
+  margin-left: 0;
+  margin-right: .5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .team .swiper {
+    padding-right: 0;
+    padding-left: 2.33vw;
+  }
+  
+  .team-member .text p img {
+    margin-left: 0;
+    margin-right: 2vw;
+  }
+}
+
+/* #About Accordion
+================================================== */
+.about-accordion .collapse>div {
+  padding-right: 0;
+  padding-left: 6.77vw;
+}
+
+.about-accordion .collapse-toggler .simbol {
+  margin-left: 0;
+  margin-right: 1vw;
+}
+
+.about-accordion .download-icons li img {
+  margin-left: 0;
+  margin-right: .78vw;
+}
+
+@media (max-width: 1023.98px) {
+  .about-accordion .collapse>div {
+    padding-right: 0;
+    padding-left: 22vw;
+  }
+
+  .about-accordion .collapse-toggler .simbol {
+    margin-left: 0;
+    margin-right: 3.33vw;
+  }
+  
+  .about-accordion .download-icons li img {
+    margin-left: 0;
+    margin-right: 4vw;
+  }
+}
